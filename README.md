@@ -22,7 +22,7 @@ Build API3 Project and deploy that API in http://localhost:425 (or any port and 
 
 Build API1 Project and deploy that API in http://localhost:423 (or any port and need to modify code based on that).
 
-There is some settings needs to be done in Azure portal for App Registration. Add a user to that app. Get the following setting and update in the 
+There are some setups required in Azure portal for App Registration. Add a user to that app. Get the following setting and update in the 
 appsettings.json file
 "AzureAd": {
     "Instance": "https://login.microsoftonline.com/",
