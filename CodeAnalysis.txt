@@ -1,0 +1,10 @@
+1. Code Analysis for Animal Class
+Seems like the developer is trying to do method overriding for which the same method signature should be used and not the overloading that is done here.
+
+
+2. Code Analysis for A class
+Based on what the user is trying to implement here are some of the apparent problems
+
+1. a is not instantiated and the user is trying to assign value to the property of a
+2. const is a compile-time assignment and we need to assign value that can be accessed during compile time for that
+3. Syntax for Console Writeline is also incorrect
